@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otra pagina que me invente</title>
+</head>
+
+<body>
+    <h1>ESTA ES LA PAGINA DOS DE ESTE SITIO</h1>
+    <br>
+    <h2>Aca vamos a colocar elementos para interactuar con el sitio</h2>
+    <br>
+    <p>
+        <!--Con la etiqueta strong, le doy mayor visibilidad a la página dentro de los buscadores (SEO)-->
+        Puedo tener <i>varios</i> <strong>div</strong> y darle <em>mayor</em> estuctura a la pagina
+        <!--Con la etiqueta <i>, le cambio el texto a italica, pero con la etiqueta <em>, le doy un mayor enfásis a la palabra o texto
+             dentro de los buscadores (SEO)-->
+    </p>
+    <!--Aca usamos un anidamiento de varias etiquetas para mostrar su implementacion
+  con la etiqueta mark, remarco lo que necesite-->
+    <p><i><b></b><strike><strong><mark>ES UN EJEMṔLO DEL USO DE VARIAS ETIQUETAS PARA FORMATEAR UN ELEMENTO</mark>
+                </strong></strike></i></b></p>
+    <!--Aca usamos la etiqueta sup, para crear un superindice-->
+    <p>e=m*c<sup>2</sup></p>
+    <!--Aca usamos las etiquetas sub y sup, para crear un subindice y un superindice--><br>
+    <p>ACA HAREMOS USO DE LA ETIQUETA small, PARA MOSTRAR COMO DARLE <small>VISIBILIDAD A DETERMINADOS ELEMENTOS</small>
+    </p>
+    <p>Me gusta cuando callas, de Pablo Neruda</p>
+    <!--El elemento pre representa un bloque de texto preformateado 
+        donde, en contraste con otros elementos, los espacios continuos 
+        y los quiebres de línea son respetados. 
+        Además, los navegadores utilizan fuentes de ancho 
+        constante para representar al texto en este 
+        elemento, lo que significa que todos los caracteres tendrán el mismo ancho.
+    El elemento pre es comúnmente utilizado para mostrar código de computadora, 
+    texto plano o arte ascii. En algunos casos, 
+    es acompañado por otros elementos como code, samp o kbd.-->
+    <pre>
+        Me gustas cuando callas porque estás como ausente,
+        y me oyes desde lejos, y mi voz no te toca.
+        Parece que los ojos se te hubieran volado
+        y parece que un beso te cerrara la boca.
+        
+        Como todas las cosas están llenas de mi alma
+        emerges de las cosas, llena del alma mía.
+        Mariposa de sueño, te pareces a mi alma,
+        y te pareces a la palabra melancolía.
+        
+        Me gustas cuando callas y estás como distante.
+        Y estás como quejándote, mariposa en arrullo.
+        Y me oyes desde lejos, y mi voz no te alcanza:
+        déjame que me calle con el silencio tuyo.</pre>
+        <!--Arte en codigo ascii-->
+    <pre>
+            ____________36936936936936936
+            ____________36936936936936936
+            ____________369369369369369369
+            ___________36936936936936933693
+            __________3693693693693693693693
+            _________369369369369369369369369
+            _________3693693693693693693693699
+            ________3693693693693693693693699369
+            _______36936939693693693693693693693693
+            _____3693693693693693693693693693693636936
+            ___36936936936936936936936936936___369369369
+            __36936___369336936369369369369________36936
+            _36936___36936_369369336936936__¶¶__¶¶
+            36933___36936__36936___3693636_¶¶¶¶¶¶¶¶
+            693____36936__36936_____369363_¶¶¶¶¶¶¶¶
+            ______36936__36936______369369__¶¶¶¶¶¶
+            _____36936___36936_______36936___¶¶¶¶
+            _____36936___36936________36936___¶¶
+            _____36936___36936_________36936___11,
+            ______369____36936__________369___11,
+            ______________369________________11,
+            _______________________________11,
+            _____________________________11,
+            ___________________________11,
+            ________________________¶¶¶_¶¶¶
+            _______________________¶¶¶¶¶¶¶¶¶
+            _______________________¶¶¶¶¶¶¶¶¶
+            ________________________¶¶¶¶¶¶¶
+            _________________________¶¶¶¶¶
+            __________________________¶¶¶
+            ___________________________¶
+          
+            </pre>
+
+    <!--Ahora, en el segundo ejemplo, veremos cómo el elemento pre 
+            se combina con code para mostrar un trozo de código de computadora.-->
+
+<p>La función es así:</p>
+<pre><code>function diHola() {
+  console.log('Hola!');
+  alert('Hola!');
+}</code></pre>
+    </pre>
+
+    <p>elemento form y sus usos</p>
+    <!--Los atributos de action son varios: action, nos indica una url, 
+        hacia donde se va a redirigir toda la informacion que viaja en bloque
+    tenemos el atributo method que me indica las acciones hacia el servidor, son 4, GET, POST, PUT Y DELETE
+action me indica hacia donde vamos y el method, de que forma vamos -->
+    <form action="./otrapagina.html ">hacia aca me redirije, por ejemplo</form>
+    <form>
+        <label for="nombre">Nombre: </label>
+        <!--Aca usamos varios atributos del elemento input, para ver sus diferentes usos
+        entre los cuales encontramos, text, number, email, password, etc-->
+        <input type="text"><br><br>
+        <label for="numeros">Aca muestra numeros</label>
+        <input type="number"><br>
+        <br>
+        <label for="Contraseña">Escriba su contraseña</label>
+        <input type="password" name="" id=""><br>
+        <!--Aca usaremos el elemento select y varios de sus atributos-->
+        <label for="Seleccione">Seleccione</label>
+        <select name="seleccion" id="">
+            <option value="Gatos">Gatos</option>
+            <option value="Perros">Perros</option>
+            <option value="Tortugas">Tortugas</option>
+        </select><br><br>
+        <!--El elemento fieldset (grupo de campos) permite organizar en grupos 
+            los campos de un formulario.
+        
+    Sus etiquetas son: <fieldset> y </fieldset> (ambas obligatorias).
+    Crea una caja: en bloque.
+    Está definido como: Elemento en bloque.
+    Puede contener: un elemento legend (opcional), 
+    y despues cero o más elementos en bloque o en linea --><br>
+        <fieldset>
+            <legend>Información Personal</legend>
+            Nombre: <input name='nombre' type='text' tabindex='1'>
+            Apellidos: <input name='apellidos' type='text' tabindex='2'>
+        </fieldset>
+
+        <fieldset>
+            <legend>edad</legend>
+            <input type='checkbox' tabindex='20' name='edad' value='20-39'> 20-39
+            <input type='checkbox' tabindex='21' name='edad' value='40-59'> 40-59
+            <input type='checkbox' tabindex='22' name='edad' value='60-79'> 60-79
+        </fieldset><br>
+        <!--El elemento textarea, me crea un area de texto y es totalmente editable --><br>
+        <textarea name="" id="" cols="30" rows="10">
+
+       </textarea><br>
+
+    </form>
+    <br><br>
+    <ftyorm encpe="multipart/form-data" action="">
+        <!--El atributo enctype del elemento input, permite al usuario seleccionar un archivo de su equipo y enviarlo
+            el atributo, nos presenta 3 opciones:
+            multipart/form-data, uqe me permite enviar cualquier tipo de archivo
+            plain text, solo texto plano
+            application/x-www-form-urlencoded, archivos Json o archivos que tengan cualquier
+           script o archivos de codifcacion--><br>
+        <input type="file" name="" id="">
+       
+        </label>
+    </form>
+</body>
+
+</html>
